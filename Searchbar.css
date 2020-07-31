@@ -1,0 +1,46 @@
+/*Search Bar Facility */
+
+#searchbar {
+    border-radius: 11px;
+    background-color: white;
+}
+
+input[type=text] {
+    text-align: center;
+    width: 59%;
+    height: 40px;
+    -webkit-transition: width 0.15s ease-in-out;
+    transition: width 0.15s ease-in-out;
+    border: 1.5px solid black;
+    border-radius: 15px;
+}
+
+
+/* When the input field gets focus, 
+      change its width to 100% */
+
+input[type=text]:focus {
+    width: 70%;
+    border: none;
+    border-bottom-left-radius: 0%;
+}
+
+#list {
+    font-size: medium;
+    text-align: left;
+    background-color: snow;
+    width: 59%;
+    margin: 0 auto;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+}
+
+.animals {
+    display: none;
+}
+
+li {
+    list-style: none;
+}
